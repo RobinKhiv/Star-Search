@@ -1,8 +1,11 @@
-form{
+form, p, .searchResults{
   color: #ffd700;
 }
-.strike-through{
-    
-        text-decoration: line-through;
-        color: red;
-      }
+.searchForm{
+  background-color: rgba(255, 255, 255, 0.05  ); 
+  text-align: center;
+}
+.strike-through{  
+  text-decoration: line-through;
+  color: red;
+}

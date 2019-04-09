@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SearchDisplay from './Components/SearchDisplay/SearchDisplay';
-import './App.css';
 import Header from './Components/header/Header';
 import { StarProvider } from './Context/StarSearchContext';
 

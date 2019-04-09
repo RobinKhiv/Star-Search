@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 
 const StarContext = React.createContext({
-    results: []
+    results: [],
+    isLoading: false
 })
 
 export default StarContext;
 
 export class StarProvider extends Component {
     state = {
-        results: []
+        results: [],
+        isLoading: false
     }
     setResults = results => {
       this.setState({ results })
@@ -20,6 +22,7 @@ export class StarProvider extends Component {
     render(){
         const value = {
             results: this.state.results,
+            isLoading: this.state.isLoading,
             setResults: this.setResults,
             setError: this.setError,
         }

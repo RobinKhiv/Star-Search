@@ -19,13 +19,11 @@ code {
 }
 
 .row {
-  /* max-width: 1000px; */
   width: 100%;
   padding-left: auto;
   padding-right: auto;
   margin: 0 auto 10px auto;
   height: 100%;
-  /* background-size: cover; */
   display: flex;
   align-items: center;
   justify-content: center;

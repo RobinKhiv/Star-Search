@@ -1,0 +1,13 @@
+.starwar-header{
+    margin-top: 20px;
+    display: block;
+}
+
+.title-text{
+    color: #ffd700;
+    font-size: 15px;
+    display:block;
+    text-align: center;
+    width: 100%;
+    margin-top: 1px;
+}

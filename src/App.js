@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import StarSearchForm from './Components/StarSearchForm';
-import SearchDisplay from './Components/SearchDisplay';
+import SearchDisplay from './Components/SearchDisplay/SearchDisplay';
 import './App.css';
+import Header from './Components/header/Header';
+import { StarProvider } from './Context/StarSearchContext';
+
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <header>
-         <StarSearchForm />
-        </header>
+     <StarProvider>
+        <Header/>
         <main role='main'>
           <SearchDisplay />
         </main>
-      </React.Fragment>
+     </StarProvider>
     );
   }
 }

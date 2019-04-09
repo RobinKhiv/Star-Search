@@ -1,0 +1,8 @@
+form{
+  color: #ffd700;
+}
+.strike-through{
+    
+        text-decoration: line-through;
+        color: red;
+      }
